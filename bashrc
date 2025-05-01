@@ -17,7 +17,7 @@ export PATH=$PATH:/home/idh/bin
 test -s ~/.alias && . ~/.alias || true
 
 alias cat='cat -v'
-alias vi='vim -u /mnt/share/crayadm/etc/vimrc'
+alias vi='vim -u $HOME/etc/vimrc'
 alias cp="cp -p"
 alias mv="mv -i"
 alias ls="ls -CFh --color=auto"
