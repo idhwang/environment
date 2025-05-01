@@ -12,7 +12,7 @@ export LS_COLORS="no=00:fi=00:di=01;35:ln=01;36:pi=40;33:so=01;35:bd=40;33;01:cd
 export GREP_OPTIONS="--color=always"
 export GREP_COLOR="1;32"
 export MANPATH=$MANPATH:/usr/share/man:/usr/kerberos/man
-export PATH=$PATH:/home/idh/bin
+export PATH=$PATH:$HOME:/bin
 
 test -s ~/.alias && . ~/.alias || true
 
