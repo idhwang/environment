@@ -1,0 +1,18 @@
+#!/bin/sh
+
+. $HOME/bin/logrc
+
+name=$1
+
+if [ ! -d $logdir ] ; then mkdir -p $dir ; fi
+if [ ! -d $timedir ] ; then mkdir -p $timedir ; fi
+
+if [ -e $logfile ] ; then
+        echo
+        echo "  You already have $name file."
+        echo "  Please try it with another name again."
+        echo
+        exit
+fi
+
+$script -fa --timing=$timefile $logfile
