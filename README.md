@@ -1,2 +1,2 @@
-# environment
-variable environment set up resources
+# Environment
+variable environment set up resources on the machine
